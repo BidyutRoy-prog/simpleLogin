@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+}
+
+.outer-box{
+    width: 100vw;
+    height: 100vh;
+    background: linear-gradient(to top left, #003e4e, #beeef4);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.inner-box{
+    width: 400px;
+    padding: 20px 40px;
+    background: linear-gradient(to top left, #ffffffff, #ffffff33);
+    backdrop-filter: blur(8px);
+    border-radius: 8px;
+    box-shadow: 2px 2px 5px #2773a5;
+    z-index: 2;
+}
+
+.pass-header h1 {
+    font-size: 2.5rem;
+    color: #212121;
+}
+
+.pass-header p {
+    font-size: 0.95rem;
+    color: #555;
+    margin-top: 5px;
+}
+
+.pass-body {
+    margin: 20px 0;
+}
+
+.pass-body p {
+    margin: 10px 0;
+}
+
+.pass-body p label {
+    display: block;
+    font-weight: bold;
+}
+
+.pass-body p input {
+    width: 100%;
+    padding: 10px;
+    border: 2px solid #cccc;
+    border-radius: 4px;
+    font-size: 1rem;
+    margin-top: 4px;
+}
+
+.pass-body p input[type="submit"] {
+    background-color: #3498db;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+
+.pass-body p input[type="submit"]:hover {
+    background-color: #2773a5;
+}
+.pass-body a{
+    font-size: 1.25rem;
+    text-decoration: none;
+}
+.pass-footer p {
+    color: #555;
+    text-align: center;
+}
+
+.pass-footer p a {
+    color: #2773a5;
+}
+
+.circle {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background: linear-gradient(to top right, #ffffff33, #ffffffff);
+    position: absolute;
+}
+
+.c1 {
+    top: 100px;
+    left: 20%;
+}
+
+.c2 {
+    bottom: 100px;
+    right: 20%;
+}
